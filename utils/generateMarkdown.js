@@ -4,13 +4,13 @@
 // renders the badges for the license
 function renderLicenseBadge(license) {
 	if (license == "MIT") {
-		return `[![PyPi license](https://badgen.net/pypi/license/pip/)](https://pypi.com/project/pip/)`;
+		return `[![MIT Badge](https://img.shields.io/badge/License-MIT-yellow.svg)](https://mit-license.org/`;
 	} else if (license == "BSD 2-Clause License") {
-		return `[![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)`;
+		return `[![BSD 2-Clause Badge](https://img.shields.io/badge/License-BSD%202--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)`;
 	} else if (license == "BSD 3-Clause License") {
 		return `[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)`;
 	} else if (license == "Boost Software License") {
-		return `[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)`;
+		return `[![BSD 3-Clause Badge](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)`;
 	} else if (license == "The Unlicense") {
 		return `[![Unlicense](https://img.shields.io/badge/License-Unlicense-blue.svg)](https://unlicense.org/)`;
 	} else if (license == "None") {
@@ -71,13 +71,7 @@ ${Licensesection[7]}`;
 	}
 }
 
-function renderDeployedPage(deployment) {
-	if (deployment == "This project does not have a deployed page") {
-		return "";
-	} else {
-		return `[Deployed Page](${deployment})`;
-	}
-}
+
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
@@ -92,6 +86,7 @@ ${renderLicenseBadge(data.license)}
 * [Tests](#Tests)
 * [Questions](#Questions)
 * [Deployment](#Deployment)
+
 ## Description 
 ${data.description}
 ## Usage 
@@ -103,11 +98,9 @@ ${data.contribution}
 ## Questions
 If you have any questions:
   - GitHub [${data.GitHubUser}](https://github.com/${data.GitHubUser})
-##Deployment
-  ${renderDeployedPage(data.deployment)}
-${renderLicenseSection(data.license, GitHubUser)}
+  
 ${renderLicenseLink(data.license)}
-
+${renderLicenseSection(data.license, GitHubUser)}
 `;
 }
 
