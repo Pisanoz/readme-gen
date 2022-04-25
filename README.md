@@ -16,6 +16,7 @@ no need to install but must have node and inquirer and vs code to use
 to automate the makeing of readme files
 
 ## Contribution
+This was made with help from https://github.com/SimonaSnap. She helped me get everything working and showed me how to do some parts of the code. 
 
 ## Tests
 no tests used 
