@@ -104,8 +104,8 @@ ${data.tests}
 ${renderLicenseSection(data.license, username)}
 ${renderLicenseLink(data.license)}
 ## Questions
-If you have any further questions contact me here:
- - Email ${data.email}
+If you have any questions:
+ 
  - GitHub [${data.username}](https://github.com/${data.username})
 `;
 }

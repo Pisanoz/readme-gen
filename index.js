@@ -12,9 +12,7 @@ const questions = [
 	"What is the use of this application?",
 	"Who contributed? ",
 	"Github Link ",
-	"DO you want to include an email",
 	"Full name",
-	
 ];
 const names = [
 	"name",
@@ -25,21 +23,16 @@ const names = [
 	"usage",
 	"contribution",
 	"username",
-	"email",
 	"fullname",
-	
 ];
 
 const awnserarry = [];
 for (let i = 0; i < questions.length; i++) {
-	awnserarry.push(
-		{
-			type: "input",
-			message: questions[i],
-			name: names[i],
-		},
-		
-	);
+	awnserarry.push({
+		type: "input",
+		message: questions[i],
+		name: names[i],
+	});
 }
 
 // TODO: Create a function to initialize app
