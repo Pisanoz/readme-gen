@@ -50,13 +50,13 @@ for (let i = 0; i < questions.length; i++) {
 			type: "input",
 			message: questions[i],
 			name: names[i],
-            default: blankenterys[i],
+			default: blankenterys[i],
 		},
 		{
 			type: "confrim",
 			message: "Do you have any screenshots to add",
 			name: "screenshots",
-            default: "",
+			default: "",
 		}
 	);
 }
