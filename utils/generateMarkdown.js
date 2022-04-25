@@ -77,17 +77,6 @@ function renderDeployedPage(deployment) {
 	}
 }
 
-function renderScreenshots(screenshots, alttext) {
-	if (screenshots == false) {
-		return "";
-	} else {
-		return `
-![A picture of the deployed application](./assets/README%20example.PNG "${alttext}")
-![A gif of the deployed application](./assets/Untitled_%20Apr%2022%2C%202022%203_36%20PM.gif "${alttext}")
-    `;
-	}
-}
-
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
 	var alttext = data.alttext;
@@ -99,16 +88,15 @@ ${data.description}
 ${renderDeployedPage(data.deployment)}
 ## Table of Contents
 * [Description](#description)
-* [Instillation](#instillation)
+
 * [Usage](#usage)
 * [Contribution](#contribution)
 * [Tests](#tests)
 * [Questions](#questions)
-## Instillation 
-${data.instillation}
+
 ## Usage 
 ${data.usage}
-${renderScreenshots(data.screenshots, alttext)}
+
 ## Contribution
 ${data.contribution}
 ## Tests

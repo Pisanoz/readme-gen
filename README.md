@@ -1,17 +1,27 @@
-# readme-gen
+# Read me gen
 
-With this project i was tasked with makeing a read me generator.
+## Description 
+Makes a read me file 
+[Deployed Page](no link neened)
+## Table of Contents
+* [Description](#description)
+* [Instillation](#instillation)
+* [Usage](#usage)
+* [Contribution](#contribution)
+* [Tests](#tests)
+* [Questions](#questions)
+## Instillation 
+no need to install but must have node and inquirer and vs code to use
+## Usage 
+to automate the makeing of readme files
 
-It uses node and some javascrip to make a readme for projects.
+## Contribution
 
-to use this you will need to have node installed on your computer and have a program like vs code.
-
-I didnt use any test for this application.
-
+## Tests
+no tests used 
 
 
-Questions
-_______________________________________________________________________________________________________________________________
+## Questions
 If you have any further questions contact me here:
- 
- Github: https://github.com/Pisanoz
+ - Email 
+ - GitHub [https://github.com/Pisanoz](https://github.com/https://github.com/Pisanoz)
