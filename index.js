@@ -1,17 +1,18 @@
 // TODO: Include packages needed for this application
-const inquirer = require("inquirer");
+
 const fs = require("fs");
 const generatemarkdown = require("./utils/generateMarkdown");
+const inquirer = require("inquirer");
 // TODO: Create an array of questions for user input
 const questions = [
 	"what is the name of your project?",
 	"what does your application do?",
-	"Did you do any tests ",
-	"Link to deployment ",
-	"How do you install it? ",
+	"Did you do any tests",
+	"Link to deployment",
+	"How do you install it?",
 	"What is the use of this application?",
-	"Who contributed? ",
-	"Github Link ",
+	"Who contributed?",
+	"Github Link",
 	"Full name",
 ];
 const names = [
@@ -22,7 +23,7 @@ const names = [
 	"instillation",
 	"usage",
 	"contribution",
-	"username",
+	"GitHubUser",
 	"fullname",
 ];
 
