@@ -11,6 +11,7 @@ const questions = [
 	"What is the use of this application?",
 	"Who contributed?",
 	"Git hub User Name",
+	"What is your email address? ",
 	"Full name",
 ];
 const names = [
@@ -20,6 +21,7 @@ const names = [
 	"usage",
 	"contribution",
 	"GitHubUser",
+	"email",
 	"fullname",
 ];
 

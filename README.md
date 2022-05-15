@@ -1,5 +1,5 @@
-# Read me gen
-
+# fgdf
+[![PyPi license](https://badgen.net/pypi/license/pip/)](https://pypi.com/project/pip/)
 ## Table of Contents
 * [Description](#Description)
 * [Usage](#Usage)
@@ -9,17 +9,16 @@
 * [Deployment](#Deployment)
 
 ## Description 
-Makes a read me file 
+gfd
 ## Usage 
-to automate the makeing of readme files 
-![img of console](./utils/img/Capture.PNG)
+fdgfd
 ## Tests
-no tests used
+fgdg
 ## Contribution
-This was made with help from https://github.com/SimonaSnap. She helped me get everything working and showed me how to do some parts of the code.
+dfgfd
 ## Questions
 If you have any questions:
-  - GitHub [pisanoz](https://github.com/pisanoz)
-  
+  - GitHub [fdgdf](https://github.com/fdgdf)
+  - Email fdg
 
-
+https://mit-license.org/
