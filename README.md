@@ -19,7 +19,7 @@ npm install or npm i
 
 ## Usage 
 
-to make it faster and mor efficent to make read me files for projects
+to make it faster and more efficent to make read me files for projects
 
  
 
