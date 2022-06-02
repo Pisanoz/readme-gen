@@ -1,7 +1,8 @@
-# dsfgdg ![License](https://img.shields.io/badge/License-MIT-orange.svg)
+# README GEN  
 
 ## Description 
-dsfghsfdg
+
+Will make a read me for projects i work on.
 
 ## Table of Contents
 
@@ -14,23 +15,24 @@ dsfghsfdg
 
 ## Installation
 
-dsfg
+npm install or npm i
 
 ## Usage 
-gsdfg
 
-## License
-	
-	
-	This project is covered under the MIT license
+to make it faster and mor efficent to make read me files for projects
+
+ 
 
 ## Tests
-sdfgdf
+
+no tests
 
 ## Contribution
-sdfg
+
+
 
 ## Questions
+
 If you have any questions:
-  - GitHub: [](https://github.com/)
-  - Email: [sdfg](sdfg)
+  - GitHub: [pisanoz](https://github.com/pisanoz)
+  - Email: []()
