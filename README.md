@@ -1,8 +1,8 @@
-# README GEN  
+# read me gen  
 
 ## Description 
 
-Will make a read me for projects i work on.
+makes read me for projects
 
 ## Table of Contents
 
@@ -15,17 +15,17 @@ Will make a read me for projects i work on.
 
 ## Installation
 
-npm install or npm i
+nmp i
 
 ## Usage 
 
-to make it faster and mor efficent to make read me files for projects
+
 
  
 
 ## Tests
 
-no tests
+no tests done
 
 ## Contribution
 
@@ -35,4 +35,4 @@ no tests
 
 If you have any questions:
   - GitHub: [pisanoz](https://github.com/pisanoz)
-  - Email: []()
+  - Email: [pisanoz@live.com](pisanoz@live.com)
