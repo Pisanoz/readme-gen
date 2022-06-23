@@ -18,7 +18,7 @@ makes read me for projects
 nmp i
 
 ## Usage 
-
+link to viedo of it working and how to use it https://drive.google.com/file/d/1HSWRRiMNM5dfHkS0oZvAirglgXhcMsdH/view?usp=sharing
 
  
 
